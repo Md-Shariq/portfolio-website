@@ -1,0 +1,581 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.fs-10 {
+    font-size: 10px;
+}
+
+.fs-12 {
+    font-size: 12px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+.fs-16 {
+    font-size: 16px;
+}
+
+.fs-18 {
+    font-size: 18px;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.fs-25 {
+    font-size: 25px;
+}
+
+.fs-30 {
+    font-size: 30px;
+}
+
+.fs-35 {
+    font-size: 35px;
+}
+
+.fw-300 {
+    font-weight: 300;
+}
+
+.fw-400 {
+    font-size: 400;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.mr-5 {
+  margin-right: 5px;
+}
+
+.mr-20 {
+    margin-right: 20px;
+  }
+
+.mb-30 {
+    margin-bottom: 40px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+.pt-15 {
+     padding-top: 15px !important;
+}
+.pb-20 {
+    padding-bottom: 20px;
+}
+.pb-15 {
+    padding-bottom: 15px !important;
+}
+.pb-10 {
+    padding-bottom: 10px;
+}
+
+
+.main-wrapper {
+    width: 100%;
+    height: 120vh;
+    background-image: url('./man.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 30px;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-bar a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 14px;
+}
+
+.text-center {
+    text-align: center;
+    padding-top: 300px;
+}
+
+.hello {
+    font-size: 50px;
+    color: antiquewhite;
+    font-weight: 300;
+
+}
+
+.name {
+    color: antiquewhite;
+    font-size: 50px;
+    padding-bottom: 15px;
+}
+
+.name-detail {
+    color: gray;
+    letter-spacing: 5px;
+}
+
+body {
+    background-color: #222222;
+}
+
+.product-nav-bar a {
+    color: gray;
+    text-decoration: none;
+    padding: 15px;
+    padding-top: 50px;
+}
+
+.product {
+    padding-top: 160px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.product-img-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    flex-wrap: wrap;
+}
+
+.product-img {
+    width: 30%;
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.mockup-text {
+    font-weight: 300;
+}
+
+.detail {
+    display: flex;
+    padding-top: 50px;
+}
+
+.detail-section {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 200px;
+    padding-bottom: 150px;
+}
+
+.detail-education {
+    width: 50%;
+    color: white;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.info-box {
+
+    width: 100%;
+    background-color: #333333;
+    border-radius: 10px;
+    padding-right: 10px;
+}
+
+.information {
+    padding: 30px;
+}
+
+.green-text {
+    color: #b1bf5b;
+}
+
+.light-text {
+    color: gray;
+}
+
+.my-resume {
+    text-align: center;
+    color: white;
+}
+
+.my {
+    font-weight: 300;
+}
+
+.about-me {
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: white;
+    padding-bottom: 200px;
+}
+
+.about-me-img {
+    width: 50%;
+}
+
+.about-me-detail {
+    width: 50%;
+    color: white;
+    padding-left: 100px;
+    padding-top: 40px;
+}
+
+.button {
+    display: flex;
+}
+
+.hire-me {
+    border-radius: 25px;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-right: 5px;
+    background-color: #bac964;
+    ;
+    color: white;
+
+}
+
+.download-button {
+    border-radius: 15px;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: grey;
+    color: white;
+
+}
+
+.client-details {
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.client-detail {
+    background-color: #333333;
+    border-radius: 8px;
+    padding: 30px;
+    margin-left: 20px;
+    color: gray;
+    width: 82%;
+}
+
+.client {
+    display: flex;
+}
+
+.client-img {
+    width: 70px;
+    height: 70px;
+    border-radius: 300px;
+    overflow: hidden;
+}
+
+.client-img img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.client-center {
+    text-align: center;
+    color: white;
+
+
+}
+
+.xyz-color {
+    color: #b1bf5b;
+}
+
+.section-client {
+    padding-bottom: 250px;
+}
+
+.my-service-detail {
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    justify-content: space-between;
+    padding-bottom: 150px;
+    padding-top: 50px;
+}
+
+.web-img {
+    width: 80px;
+    height: 80px;
+    background-color: #bac964;
+    border-radius: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.web-img img {
+    width: 40px
+}
+
+.detail-box {
+    width: 350px;
+    background-color: #333333;
+    text-align: center;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.web-color {
+    color: white;
+}
+
+.detail-color {
+    color: gray;
+    line-height: 27px;
+}
+
+.learn-more-color {
+    color: #b1bf5b;
+}
+
+.blog-on-medium {
+    
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.blog-detail {
+    width: 350px;
+    padding-top: 50px;
+
+
+}
+
+.blog-on-img {
+    height: 300px;
+
+}
+
+.blog-on-detail {
+    padding: 20px;
+    line-height: 30px;
+    background-color:#333333;
+}
+
+.icon-img {
+    width: 15px;
+    height: 15px;
+
+}
+
+.date-calendar {
+    display: flex;
+    padding-right: 20px;
+}
+
+.comment {
+    display: flex;
+}
+
+.calendar-comment {
+    display: flex;
+}
+.medium-text {
+    color: gray;
+    padding-bottom: 20px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-center {
+    align-items: center;
+}
+.medium{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 150px;
+}
+.touch {
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 150px;
+}
+.in-touch {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.get-in-touch {
+    width: 60%;
+    padding-right: 70px;
+}
+.contact-detail {
+    width: 40%;
+}
+.input{
+    width: 100%;
+    padding: 13px;
+    background-color:#333333 ;
+    border: none;
+    border-radius: 5px;
+}
+.input-message {
+    width: 100%;
+    border:none;
+    background-color: #333333;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+.color-phone {
+    color: #2c3e50;
+}
+.copyright{
+    text-align: center;
+}
+.logo-img {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+
+.logo-img img{
+    margin: 0px 12px;
+    width: 65px;
+    height: 65px;
+
+}
+
+@media only screen and (max-width: 768px) {
+    .detail {
+        flex-direction: column;
+    }
+
+    .detail-education {
+        width: 100%;
+    }
+
+    .about-me {
+       flex-direction: column;
+    }
+
+    .about-me-detail {
+        width: 100%;
+        padding-left: 0px;
+    }
+
+    .client-details {
+       flex-direction: column;
+    }
+
+    .my-service-detail {
+      flex-direction: column;
+       
+    }
+
+    .detail-box {
+        width: 100%;
+        margin-bottom: 20px;
+        
+    }
+
+    .blog-on-medium {
+        flex-direction: column;
+    }
+
+    .blog-detail {
+        width: 100%;
+    }
+
+    .touch {
+        padding-bottom: 70px;
+        flex-direction: column;
+    }
+
+    .get-in-touch {
+        padding-right: 10px;
+        width: 100%;
+    }
+
+    .contact-details {
+        margin-top: 30px;
+    }
+    .detail-section {
+        padding-bottom: 30px;
+        padding-top: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .nav-bar a {
+        padding: 6px;
+    }
+    .logo-img img{
+        margin: 0px 8px;
+        width: 25px;
+        height: 25px;
+    
+    }
+    .about-me {
+        padding-bottom: 69px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .my-service-detail {
+        padding-bottom: 80px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .product {
+        padding-top: 80px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .client-details {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .medium{
+        padding-bottom: 80px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .in-touch {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .main-wrapper {
+        height: 60vh;
+        background-position: center;
+    }
+    .text-center {
+        padding-top: 100px;
+    }
+    .section-client {
+        padding-bottom: 90px;
+    }
+    
+    
+}    
